@@ -64,7 +64,7 @@ MaojuPlayer is actively maintained, but to manage the volume of support requests
 If you find the player valuable and want to report a bug, request a feature, or receive direct support:
 1. Sponsor the project via the [GitHub Sponsors page](https://github.com/sponsors/sfchun).
 2. Upon sponsoring, you will automatically be granted access to the private `MaojuPlayer-Support` repository.
-3. Open an issue in the support repository, and it will be prioritized.
+3. Open an issue in the support repository.
 
 ## 📄 License
 MaojuPlayer is distributed as freeware. All rights reserved.

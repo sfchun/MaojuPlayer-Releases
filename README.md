@@ -43,6 +43,8 @@ Designed to feed bit-perfect audio directly to high-end chains, including R2R NO
 *   **Immersive Views:** A compact Mini Player mode (Ctrl/Cmd+M) and a Full-Screen Album Art mode featuring auto-hiding transport controls.
 
 ### 🌐 Streaming & Network Integration
+> ⚠️ **Disclaimer:** Integrations with third-party platforms (including Tidal, Qobuz, and Roon) are provided strictly for user convenience. MaojuPlayer has no official partnership, commercial agreement, or formal certification with these services. Consequently, these features may change, break, or be removed at any time without notice if upstream systems are updated.
+
 *   **Tidal & Qobuz:** Browse favorites, playlists, featured albums, and search directly in the app. Full DSP chain support for Tidal FLAC and Qobuz streaming up to 24-bit/192kHz.
 *   **Network Audio:** Support for Internet radio (Icecast/Shoutcast), direct audio URLs, and HLS streams with live ICY metadata display.
 *   **Roon Integration:** Acts as a Roon control and display extension. Discover a Roon Core, pair, display now-playing, and remote control transport/volume (Note: MaojuPlayer acts as a controller, not a RAAT audio endpoint).

@@ -62,7 +62,7 @@ Designed to feed bit-perfect audio directly to high-end chains, including R2R NO
 MaojuPlayer is actively maintained, but to manage the volume of support requests, bug reporting and technical support are gated via **GitHub Sponsors**. 
 
 If you find the player valuable and want to report a bug, request a feature, or receive direct support:
-1. Sponsor the project via the [GitHub Sponsors page](#) *(Link your sponsors page here)*.
+1. Sponsor the project via the [GitHub Sponsors page](https://github.com/sponsors/sfchun).
 2. Upon sponsoring, you will automatically be granted access to the private `MaojuPlayer-Support` repository.
 3. Open an issue in the support repository, and it will be prioritized.
 

@@ -1,0 +1,12 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - name: Bug reports and support (GitHub Sponsors)
+    url: https://github.com/sponsors/sfchun
+    about: Bug reports, feature requests and help are handled in the private MaojuPlayer-Support repository, open to sponsors.
+  - name: Latest release
+    url: https://github.com/sfchun/MaojuPlayer-Releases/releases/latest
+    about: Download the latest version of MaojuPlayer.
+  - name: Report a security vulnerability
+    url: https://github.com/sfchun/MaojuPlayer-Releases/security/advisories/new
+    about: Report security problems privately (open to everyone, no sponsorship needed).

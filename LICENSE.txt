@@ -70,3 +70,11 @@ agree, do not use the Software.
    If any provision of this license is held unenforceable, the remaining
    provisions remain in full effect, and the unenforceable provision applies to
    the maximum extent permitted by law.
+
+12. Governing law and jurisdiction
+   This license is governed by the laws of France. Any dispute arising from or
+   in connection with it falls under the exclusive jurisdiction of the courts
+   of Paris, France. This does not deprive a consumer of the protection of the
+   mandatory provisions of the law of their country of residence, or of their
+   right to bring proceedings in the courts of that country where that law
+   allows it.

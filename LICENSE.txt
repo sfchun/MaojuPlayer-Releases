@@ -11,11 +11,19 @@ agree, do not use the Software.
    or commercial purposes, on any number of devices.
 
 2. Redistribution
-   You may share an unmodified copy of an official release archive, including
-   this license and THIRD-PARTY-LICENSES.txt, free of charge. You may not sell
-   the Software, bundle it with other software, or distribute modified copies.
-   Please point people to https://github.com/sfchun/MaojuPlayer-Releases for
-   official downloads.
+   You may redistribute the Software free of charge, provided that:
+   (a) the Software itself is unmodified (the official release binaries);
+   (b) this license and THIRD-PARTY-LICENSES.txt are included or made available
+       with it; and
+   (c) you do not charge for the Software itself.
+   This explicitly allows software repositories and package managers (for
+   example Homebrew, winget, Scoop, Chocolatey, Flathub, the AUR or Linux
+   distributions) to package and distribute the official binaries, including
+   install scripts, package metadata and the packaging needed for their format.
+   Such packages are not official releases and are not supported by the author;
+   official downloads are at https://github.com/sfchun/MaojuPlayer-Releases.
+   You may not distribute modified versions of the Software or present a
+   redistribution as an official release.
 
 3. Restrictions
    Except to the extent applicable law expressly permits it despite this

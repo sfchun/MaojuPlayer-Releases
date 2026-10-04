@@ -167,7 +167,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ================================================================================
-Rust crates linked into MaojuPlayer (542)
+Rust crates linked into MaojuPlayer (539)
 ================================================================================
 
 ab_glyph 0.2.32 — Apache-2.0 — https://github.com/alexheretic/ab-glyph
@@ -1177,12 +1177,6 @@ windows-targets 0.52.6 — MIT OR Apache-2.0 — https://github.com/microsoft/wi
 windows-targets 0.53.5 — MIT OR Apache-2.0 — https://github.com/microsoft/windows-rs
     texts: [145806f19182], [1f17794ed0a9]
 windows-threading 0.2.1 — MIT OR Apache-2.0 — https://github.com/microsoft/windows-rs
-    texts: [145806f19182], [1f17794ed0a9]
-windows_x86_64_gnu 0.42.2 — MIT OR Apache-2.0 — https://github.com/microsoft/windows-rs
-    texts: [145806f19182], [1f17794ed0a9]
-windows_x86_64_gnu 0.52.6 — MIT OR Apache-2.0 — https://github.com/microsoft/windows-rs
-    texts: [145806f19182], [1f17794ed0a9]
-windows_x86_64_gnu 0.53.1 — MIT OR Apache-2.0 — https://github.com/microsoft/windows-rs
     texts: [145806f19182], [1f17794ed0a9]
 windows_x86_64_msvc 0.42.2 — MIT OR Apache-2.0 — https://github.com/microsoft/windows-rs
     texts: [145806f19182], [1f17794ed0a9]

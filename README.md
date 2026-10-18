@@ -34,8 +34,20 @@ This repository is the distribution point for official MaojuPlayer releases. Mao
 ### First launch
 
 * **macOS:** move MaojuPlayer to *Applications* and open it. If macOS says it cannot verify the app, open **System Settings → Privacy & Security**, click **Open Anyway** next to the MaojuPlayer message, then confirm.
-* **Windows:** extract the archive and run `maojuplayer.exe`. If SmartScreen shows "Windows protected your PC", click **More info → Run anyway**.
+* **Windows:** install Microsoft's Visual C++ Redistributable first (see below), then extract the archive and run `maojuplayer.exe`. If SmartScreen shows "Windows protected your PC", click **More info → Run anyway**.
 * **Linux:** extract the archive, make the binary executable (`chmod +x maojuplayer`) and run it. Output goes through ALSA, including PipeWire and PulseAudio via their ALSA devices; bit-perfect output uses your DAC's exclusive ALSA device.
+
+### Windows: install the Visual C++ Redistributable first
+
+MaojuPlayer needs Microsoft's C runtime (`VCRUNTIME140.dll`), which many PCs already have. Without it, Windows shows "The code execution cannot proceed because VCRUNTIME140.dll was not found" and MaojuPlayer does not start.
+
+1. Download Microsoft's installer for the latest version: **[vc_redist.x64.exe](https://aka.ms/vc14/vc_redist.x64.exe)** ("Microsoft Visual C++ v14 Redistributable, x64", for Windows 10 / 11). An older installed version can be too old, so install the latest one. Microsoft's download page: [Latest supported Visual C++ Redistributable downloads](https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist).
+2. Run it and click **Install** (administrator rights are needed; a restart is rarely asked).
+3. Start MaojuPlayer.
+
+Or, in a terminal: `winget install Microsoft.VCRedist.2015+.x64`
+
+Installing it again is harmless: the installer says when a newer or equal version is already present. Windows Update keeps it up to date. Do not uninstall it: MaojuPlayer and other programs need it.
 
 ---
 

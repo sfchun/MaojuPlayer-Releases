@@ -12,4 +12,4 @@ Security reports are accepted from everyone; a GitHub Sponsors subscription is n
 
 ## Supported versions
 
-Only the latest release receives security fixes. Please update before reporting.
+Only the latest release receives security fixes. Please update before reporting. Help → About shows your version and has a **Check now** button to look for a newer one.

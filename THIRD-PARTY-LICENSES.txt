@@ -48,6 +48,16 @@ WavPack audio library (compiled into the wavpack-sys crate)
   Copyright (c) 1998-2022 David Bryant. Licensed under the BSD-3-Clause licence
   printed with the wavpack-sys crate below. Source: https://github.com/dbry/WavPack
 
+Open Chinese Convert (OpenCC) — character conversion data
+  Copyright 2010-2026 Carbo Kuo and contributors
+  Licensed under the Apache License, Version 2.0 (text printed with the Apache-2.0
+  crates below). MaojuPlayer embeds a table derived from
+  data/dictionary/TSCharacters.txt at commit 8cf737a4e193db27d675b2ce9867d84aace33745:
+  only the first Simplified candidate of each entry is kept, identity entries are
+  removed, chains are resolved to their final character, and the data is
+  converted to Rust source. It is used only to compare names and titles.
+  Source: https://github.com/BYVoid/OpenCC
+
 Mozilla Public License 2.0 components (Symphonia audio decoding crates and
 option-ext): used unmodified. The source code of each exact version is
 available at the crates.io link listed with the crate below.
@@ -212,9 +222,9 @@ anyhow 1.0.104 — MIT OR Apache-2.0 — https://github.com/dtolnay/anyhow
     texts: [59d8f0ba87ad], [fe2a9817987f]
 apple-native-keyring-store 1.0.2 — MIT OR Apache-2.0 — https://github.com/open-source-cooperative/apple-native-keyring-store.git
     texts: [3b146a1b8893], [a1c5a88be05a]
-arboard 3.6.1 — MIT OR Apache-2.0 — https://github.com/1Password/arboard
+arboard 3.7.0 — MIT OR Apache-2.0 — https://github.com/1Password/arboard
     texts: [59d8f0ba87ad], [aaf7d597ecdc]
-arc-swap 1.9.2 — MIT OR Apache-2.0 — https://github.com/vorner/arc-swap
+arc-swap 1.9.3 — MIT OR Apache-2.0 — https://github.com/vorner/arc-swap
     texts: [0ffddef9e48f], [55ac58e6f72c]
 arrayref 0.3.9 — BSD-2-Clause — https://github.com/droundy/arrayref
     texts: [c90a7bc4197e]
@@ -272,9 +282,9 @@ av1-grain 0.2.5 — BSD-2-Clause — https://github.com/rust-av/av1-grain
     texts: [d5670273aa97]
 avif-serialize 0.8.9 — BSD-3-Clause — https://github.com/kornelski/avif-serialize
     texts: [b233bcc98ac2]
-aws-lc-rs 1.18.1 — ISC AND (Apache-2.0 OR ISC) — https://github.com/aws/aws-lc-rs
+aws-lc-rs 1.18.2 — ISC AND (Apache-2.0 OR ISC) — https://github.com/aws/aws-lc-rs
     texts: [e8be601cbb6f]
-aws-lc-sys 0.45.0 — ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0) — https://github.com/aws/aws-lc-rs
+aws-lc-sys 0.46.0 — ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0) — https://github.com/aws/aws-lc-rs
     texts: [287408378db8]
 base64 0.22.1 — MIT OR Apache-2.0 — https://github.com/marshallpierce/rust-base64
     texts: [0ffddef9e48f], [8022d7ab74f9]
@@ -396,7 +406,7 @@ data-encoding 2.11.1 — MIT — https://github.com/ia0/data-encoding
     texts: [ecee46cecc35]
 data-url 0.3.2 — MIT OR Apache-2.0 — https://github.com/servo/rust-url
     texts: [0ffddef9e48f], [754203e3cff4]
-deranged 0.5.8 — MIT OR Apache-2.0 — https://github.com/jhpratt/deranged
+deranged 0.5.9 — MIT OR Apache-2.0 — https://github.com/jhpratt/deranged
     texts: [8b496867ab4d], [b99d57e1913b]
 digest 0.10.7 — MIT OR Apache-2.0 — https://github.com/RustCrypto/traits
     texts: [0ffddef9e48f], [c84ea1490b49]
@@ -434,7 +444,7 @@ egui_tiles 0.17.1 — MIT OR Apache-2.0 — https://github.com/rerun-io/egui_til
     texts: [0ffddef9e48f], [fe6e5504655d]
 ehttp 0.7.1 — MIT OR Apache-2.0 — https://github.com/emilk/ehttp
     texts: [c0184a67cad8]
-either 1.18.0 — MIT OR Apache-2.0 — https://github.com/rayon-rs/either
+either 1.19.0 — MIT OR Apache-2.0 — https://github.com/rayon-rs/either
     texts: [0ffddef9e48f], [f6b06eca855b]
 emath 0.36.2 — MIT OR Apache-2.0 — https://github.com/emilk/egui/tree/main/crates/emath
     texts: [c0184a67cad8]
@@ -452,7 +462,7 @@ epaint_default_fonts 0.36.2 — (MIT OR Apache-2.0) AND OFL-1.1 AND Ubuntu-font-
     texts: [4a803598af08], [b1d996ec2b73], [957d37be54ce], [6f463ab10e75]
 equator 0.4.2 — MIT — https://github.com/sarah-ek/equator/
     texts: [7ae0fb9b4d81]
-equivalent 1.0.2 — Apache-2.0 OR MIT — https://github.com/indexmap-rs/equivalent
+equivalent 1.0.3 — Apache-2.0 OR MIT — https://github.com/indexmap-rs/equivalent
     texts: [0ffddef9e48f], [3c7d8bcc6f35]
 errno 0.3.14 — MIT OR Apache-2.0 — https://github.com/lambda-fairy/rust-errno
     texts: [0ffddef9e48f], [721c9cd49fb5]
@@ -486,7 +496,7 @@ float-cmp 0.9.0 — MIT — https://github.com/mikedilger/float-cmp
     texts: [7cde3795b0fb]
 foldhash 0.2.0 — Zlib — https://github.com/orlp/foldhash
     texts: [3a31f72fe7c9]
-font-types 0.12.6 — MIT OR Apache-2.0 — https://github.com/googlefonts/fontations
+font-types 0.12.7 — MIT OR Apache-2.0 — https://github.com/googlefonts/fontations
     texts: [105b5c924cbb], [ba498e49a767]
 foreign-types 0.3.2 — MIT/Apache-2.0 — https://github.com/sfackler/foreign-types
     texts: [958e28cd3f37], [cbfccc2f8c09]
@@ -528,7 +538,7 @@ getrandom 0.4.3 — MIT OR Apache-2.0 — https://github.com/rust-random/getrand
     texts: [a0b9af0d1614], [cb140e49d1fa]
 gif 0.14.2 — MIT OR Apache-2.0 — https://github.com/image-rs/image-gif
     texts: [0ffddef9e48f], [8c437afe392c]
-global-hotkey 0.8.0 — Apache-2.0 OR MIT — https://github.com/tauri-apps/global-hotkey
+global-hotkey 0.9.0 — Apache-2.0 OR MIT — https://github.com/tauri-apps/global-hotkey
     texts: [0ffddef9e48f], [74881d76da53], [449480a42a61]
 glow 0.17.0 — MIT OR Apache-2.0 OR Zlib — https://github.com/grovesNL/glow
     texts: [0ffddef9e48f], [fe2a9817987f], [444399c3da8f]
@@ -558,7 +568,7 @@ httparse 1.10.1 — MIT OR Apache-2.0 — https://github.com/seanmonstar/httpars
     texts: [0ffddef9e48f], [5af244df0443]
 hybrid-array 0.4.15 — MIT OR Apache-2.0 — https://github.com/RustCrypto/hybrid-array
     texts: [0ffddef9e48f], [11347be29e17]
-hyper 1.11.1 — MIT — https://github.com/hyperium/hyper
+hyper 1.12.0 — MIT — https://github.com/hyperium/hyper
     texts: [b37e6300be84]
 hyper-rustls 0.27.10 — Apache-2.0 OR ISC OR MIT — https://github.com/rustls/hyper-rustls
     texts: [0ffddef9e48f], [a5ce8e4f1a2f], [37d4e1d49571]
@@ -608,9 +618,9 @@ itoa 1.0.18 — MIT OR Apache-2.0 — https://github.com/dtolnay/itoa
     texts: [59d8f0ba87ad], [fe2a9817987f]
 jwalk 0.9.0 — MIT — https://github.com/Byron/jwalk
     texts: [63a59445a3ca]
-keyboard-types 0.7.0 — MIT OR Apache-2.0 — https://github.com/pyfisch/keyboard-types
+keyboard-types 0.8.3 — MIT OR Apache-2.0 — https://github.com/rust-windowing/keyboard-types
     texts: [0ffddef9e48f], [ba9f3e891740]
-keyring-core 1.0.0 — MIT OR Apache-2.0 — https://github.com/open-source-cooperative/keyring-core.git
+keyring-core 1.0.1 — MIT OR Apache-2.0 — https://github.com/open-source-cooperative/keyring-core.git
     texts: [3b146a1b8893], [a1c5a88be05a]
 khronos-egl 6.0.0 — MIT/Apache-2.0 — https://github.com/timothee-haudebourg/khronos-egl
     texts: [0ffddef9e48f], [fe2a9817987f]
@@ -622,7 +632,7 @@ lazy_static 1.5.1 — MIT OR Apache-2.0 — https://github.com/rust-lang-nursery
     texts: [0ffddef9e48f], [fe2a9817987f]
 lebe 0.5.3 — BSD-3-Clause — https://github.com/johannesvollmer/lebe
     texts: [03c7b27f2a24]
-libc 0.2.190 — MIT OR Apache-2.0 — https://github.com/rust-lang/libc
+libc 0.2.191 — MIT OR Apache-2.0 — https://github.com/rust-lang/libc
     texts: [59d8f0ba87ad], [6ebd8d40ce1b]
 libloading 0.8.9 — ISC — https://github.com/nagisa/rust_libloading/
     texts: [121aea2578cd]
@@ -670,7 +680,7 @@ miniz_oxide 0.8.9 — MIT OR Zlib OR Apache-2.0 — https://github.com/Frommi/mi
     texts: [9a3c7889befa], [59d8f0ba87ad], [9a3c7889befa], [f6f0628213d9]
 miniz_oxide 0.9.1 — MIT OR Zlib OR Apache-2.0 — https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
     texts: [9a3c7889befa], [59d8f0ba87ad], [9a3c7889befa], [f6f0628213d9]
-mio 1.2.3 — MIT — https://github.com/tokio-rs/mio
+mio 1.2.4 — MIT — https://github.com/tokio-rs/mio
     texts: [047b433bb08f]
 moxcms 0.8.1 — BSD-3-Clause OR Apache-2.0 — https://github.com/awxkee/moxcms.git
     texts: [642fcbed2668], [93d059f39a8a]
@@ -708,9 +718,9 @@ objc 0.2.7 — MIT — http://github.com/SSheldon/rust-objc
     texts: [96a1230fa608]
 objc-sys 0.3.5 — MIT — https://github.com/madsmtm/objc2
     texts: [9ef0032e1e93]
-objc2 0.5.2 — MIT — https://github.com/madsmtm/objc2
+objc2 0.5.3 — MIT — https://github.com/madsmtm/objc2
     texts: [a0bf1582a581]
-objc2 0.6.4 — MIT — https://github.com/madsmtm/objc2
+objc2 0.6.5 — MIT — https://github.com/madsmtm/objc2
     texts: [9ef0032e1e93]
 objc2-app-kit 0.2.2 — MIT — https://github.com/madsmtm/objc2
     texts: [4a412db0e647]
@@ -788,7 +798,7 @@ polycool 0.4.0 — MIT OR Apache-2.0 — https://github.com/linebender/kurbo
     texts: [0ffddef9e48f], [2282235099b5]
 potential_utf 0.1.6 — Unicode-3.0 — https://github.com/unicode-org/icu4x
     texts: [96fb22b42a44]
-powerfmt 0.2.0 — MIT OR Apache-2.0 — https://github.com/jhpratt/powerfmt
+powerfmt 0.2.1 — MIT OR Apache-2.0 — https://github.com/jhpratt/powerfmt
     texts: [ad90af82d790], [93bb3b571eb0]
 ppv-lite86 0.2.21 — MIT OR Apache-2.0 — https://github.com/cryptocorrosion/cryptocorrosion
     texts: [a7f712fe28e9], [6dc6d588fd12]
@@ -868,7 +878,7 @@ rgb 0.8.53 — MIT — https://github.com/kornelski/rust-rgb
     texts: [0ec5ba73473a]
 ring 0.17.14 — Apache-2.0 AND ISC — https://github.com/briansmith/ring
     texts: [75478cf1cc55], [66787b134379], [e17252e4636f]
-ringbuf 0.5.2 — MIT OR Apache-2.0 — https://github.com/agerasev/ringbuf.git
+ringbuf 0.5.3 — MIT OR Apache-2.0 — https://github.com/agerasev/ringbuf.git
     texts: [0ffddef9e48f], [73732698aa7c]
 ron 0.12.2 — MIT OR Apache-2.0 — https://github.com/ron-rs/ron
     texts: [0ffddef9e48f], [6469bbc4a4fc]
@@ -890,9 +900,9 @@ rustix 0.38.44 — Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT — https
     texts: [175bdea6e6b8], [0ffddef9e48f], [f42a00ac54d0], [fe2a9817987f]
 rustix 1.1.5 — Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT — https://github.com/bytecodealliance/rustix
     texts: [175bdea6e6b8], [0ffddef9e48f], [f42a00ac54d0], [fe2a9817987f]
-rustls 0.23.45 — Apache-2.0 OR ISC OR MIT — https://github.com/rustls/rustls
+rustls 0.23.46 — Apache-2.0 OR ISC OR MIT — https://github.com/rustls/rustls
     texts: [0ffddef9e48f], [a5ce8e4f1a2f], [37d4e1d49571]
-rustls-native-certs 0.8.4 — Apache-2.0 OR ISC OR MIT — https://github.com/rustls/rustls-native-certs
+rustls-native-certs 0.8.5 — Apache-2.0 OR ISC OR MIT — https://github.com/rustls/rustls-native-certs
     texts: [655542b0b16d], [0ffddef9e48f], [a5ce8e4f1a2f], [37d4e1d49571]
 rustls-pki-types 1.15.1 — MIT OR Apache-2.0 — https://github.com/rustls/pki-types
     texts: [2e9b290051b6], [43d78f3759aa]
@@ -920,7 +930,7 @@ serde 1.0.229 — MIT OR Apache-2.0 — https://github.com/serde-rs/serde
     texts: [59d8f0ba87ad], [fe2a9817987f]
 serde_core 1.0.229 — MIT OR Apache-2.0 — https://github.com/serde-rs/serde
     texts: [59d8f0ba87ad], [fe2a9817987f]
-serde_json 1.0.151 — MIT OR Apache-2.0 — https://github.com/serde-rs/json
+serde_json 1.0.154 — MIT OR Apache-2.0 — https://github.com/serde-rs/json
     texts: [59d8f0ba87ad], [fe2a9817987f]
 sha1 0.10.7 — MIT OR Apache-2.0 — https://github.com/RustCrypto/hashes
     texts: [0ffddef9e48f], [5327d3e76b45]
@@ -940,7 +950,7 @@ skrifa 0.44.0 — MIT OR Apache-2.0 — https://github.com/googlefonts/fontation
     texts: [105b5c924cbb], [ba498e49a767]
 slab 0.4.12 — MIT — https://github.com/tokio-rs/slab
     texts: [075c35810494]
-smallvec 1.16.2 — MIT OR Apache-2.0 — https://github.com/servo/rust-smallvec
+smallvec 1.16.3 — MIT OR Apache-2.0 — https://github.com/servo/rust-smallvec
     texts: [0ffddef9e48f], [2736d79caea3]
 smithay-client-toolkit 0.19.2 — MIT — https://github.com/smithay/client-toolkit
     texts: [b33fac9a901a]
@@ -996,7 +1006,7 @@ symphonia-format-riff 0.6.1 — MPL-2.0 — https://crates.io/crates/symphonia-f
     texts: [a7fae6cb34ec]
 symphonia-metadata 0.6.1 — MPL-2.0 — https://crates.io/crates/symphonia-metadata/0.6.1
     texts: [a7fae6cb34ec]
-syn 3.0.6 — MIT OR Apache-2.0 — https://github.com/dtolnay/syn
+syn 3.0.9 — MIT OR Apache-2.0 — https://github.com/dtolnay/syn
     texts: [59d8f0ba87ad], [fe2a9817987f]
 sync_wrapper 1.0.2 — Apache-2.0 — https://github.com/Actyx/sync_wrapper
     texts: [59d8f0ba87ad]
@@ -1018,7 +1028,7 @@ tinystr 0.8.4 — Unicode-3.0 — https://github.com/unicode-org/icu4x
     texts: [96fb22b42a44]
 tinyvec 1.13.3 — Zlib OR Apache-2.0 OR MIT — https://github.com/Lokathor/tinyvec
     texts: [0ffddef9e48f], [fe2a9817987f], [7ab00508d3cf]
-tokio 1.53.1 — MIT — https://github.com/tokio-rs/tokio
+tokio 1.53.3 — MIT — https://github.com/tokio-rs/tokio
     texts: [1635eef3e98d]
 tokio-rustls 0.26.6 — MIT OR Apache-2.0 — https://github.com/rustls/tokio-rustls
     texts: [636599ea322b], [e3328ed41360]
@@ -1048,14 +1058,14 @@ typeid 1.0.3 — MIT OR Apache-2.0 — https://github.com/dtolnay/typeid
     texts: [59d8f0ba87ad], [fe2a9817987f]
 typenum 1.20.1 — MIT OR Apache-2.0 — https://github.com/paholg/typenum
     texts: [db11fec99467], [3c2971a948fc], [574f47f354af]
-unicase 2.9.0 — MIT OR Apache-2.0 — https://github.com/seanmonstar/unicase
+unicase 2.10.0 — MIT OR Apache-2.0 — https://github.com/seanmonstar/unicase
     texts: [0ffddef9e48f], [b37e6300be84]
 unicode-general-category 1.1.0 — Apache-2.0 — https://github.com/yeslogic/unicode-general-category
     texts: [958e28cd3f37]
-unicode-ident 1.0.26 — (MIT OR Apache-2.0) AND Unicode-3.0 — https://github.com/dtolnay/unicode-ident
+unicode-ident 1.0.27 — (MIT OR Apache-2.0) AND Unicode-3.0 — https://github.com/dtolnay/unicode-ident
     texts: [59d8f0ba87ad], [fe2a9817987f], [21b7ffe46249]
-unicode-normalization 0.1.25 — MIT OR Apache-2.0 — https://github.com/unicode-rs/unicode-normalization
-    texts: [9fba058782d4], [0ffddef9e48f], [d1442c3bc874]
+unicode-normalization 0.1.26 — (MIT OR Apache-2.0) AND Unicode-3.0 — https://github.com/unicode-rs/unicode-normalization
+    texts: [9fba058782d4], [0ffddef9e48f], [d1442c3bc874], [21b7ffe46249]
 unicode-segmentation 1.13.3 — MIT OR Apache-2.0 — https://github.com/unicode-rs/unicode-segmentation
     texts: [9fba058782d4], [0ffddef9e48f], [d1442c3bc874]
 unicode-width 0.2.2 — MIT OR Apache-2.0 — https://github.com/unicode-rs/unicode-width
@@ -1066,7 +1076,7 @@ untrusted 0.9.0 — ISC — https://github.com/briansmith/untrusted
     texts: [d6a918d9bebe]
 ureq 3.4.2 — MIT OR Apache-2.0 — https://github.com/algesten/ureq
     texts: [0ffddef9e48f], [5fb79267f1aa]
-ureq-proto 0.6.4 — MIT OR Apache-2.0 — https://github.com/algesten/ureq-proto
+ureq-proto 0.6.5 — MIT OR Apache-2.0 — https://github.com/algesten/ureq-proto
     texts: [0ffddef9e48f], [a243a22ce79c]
 url 2.5.8 — MIT OR Apache-2.0 — https://github.com/servo/rust-url
     texts: [0ffddef9e48f], [754203e3cff4]
@@ -1076,7 +1086,7 @@ utf8-zero 0.8.1 — MIT OR Apache-2.0 — https://github.com/algesten/utf8-zero
     texts: [59d8f0ba87ad], [fe2a9817987f]
 utf8_iter 1.0.4 — Apache-2.0 OR MIT — https://github.com/hsivonen/utf8_iter
     texts: [0636525ad3df], [0ffddef9e48f], [69fb5adae13b]
-uuid 1.27.0 — Apache-2.0 OR MIT — https://github.com/uuid-rs/uuid
+uuid 1.28.0 — Apache-2.0 OR MIT — https://github.com/uuid-rs/uuid
     texts: [0ffddef9e48f], [de1bcb73d8f5]
 v_frame 0.3.9 — BSD-2-Clause — https://github.com/rust-av/v_frame
     texts: [4546796c6f74]
@@ -1088,9 +1098,9 @@ waker-fn 1.2.0 — Apache-2.0 OR MIT — https://github.com/smol-rs/waker-fn
     texts: [0ffddef9e48f], [fe2a9817987f]
 walkdir 2.5.0 — Unlicense/MIT — https://github.com/BurntSushi/walkdir
     texts: [7e7a2c785f3d], [952115fb9351], [2069c208cba5]
-want 0.3.1 — MIT — https://github.com/seanmonstar/want
+want 0.3.2 — MIT — https://github.com/seanmonstar/want
     texts: [d3ed37e884e9]
-wasapi 0.25.0 — MIT — https://github.com/HEnquist/wasapi-rs
+wasapi 0.26.0 — MIT — https://github.com/HEnquist/wasapi-rs
     texts: [5178cc5a51fb]
 wavpack 0.4.0 — BSD-3-Clause — https://github.com/irh/wavpack-rs
     texts: [9b97740c9e23]
@@ -1218,17 +1228,17 @@ zbus-lockstep 0.5.2 — MIT — https://github.com/luukvanderduim/zbus-lockstep
     texts: [fe2a9817987f]
 zbus_names 2.6.1 — MIT — https://github.com/dbus2/zbus/
     texts: [fe2a9817987f]
-zbus_names 4.3.4 — MIT — https://github.com/z-galaxy/zbus/
+zbus_names 4.3.5 — MIT — https://github.com/z-galaxy/zbus/
     texts: [4e7947a10013]
 zbus_xml 5.2.1 — MIT — https://github.com/z-galaxy/zbus/
     texts: [4e7947a10013]
 zcheapstr 1.1.0 — MIT — https://github.com/z-galaxy/zcheapstr/
     texts: [3d4b17696a2a]
-zerocopy 0.8.59 — BSD-2-Clause OR Apache-2.0 OR MIT — https://github.com/google/zerocopy
+zerocopy 0.8.63 — BSD-2-Clause OR Apache-2.0 OR MIT — https://github.com/google/zerocopy
     texts: [534e8240bf07], [25c95a7b50ce], [bc6715c4aa80]
 zerofrom 0.1.8 — Unicode-3.0 — https://github.com/unicode-org/icu4x
     texts: [96fb22b42a44]
-zeroize 1.9.0 — Apache-2.0 OR MIT — https://github.com/RustCrypto/utils
+zeroize 1.9.1 — Apache-2.0 OR MIT — https://github.com/RustCrypto/utils
     texts: [0ffddef9e48f], [7512450f4607]
 zerotrie 0.2.5 — Unicode-3.0 — https://github.com/unicode-org/icu4x
     texts: [96fb22b42a44]
@@ -1244,7 +1254,7 @@ zune-jpeg 0.5.15 — MIT OR Apache-2.0 OR Zlib — https://github.com/etemesi254
     texts: [0ffddef9e48f], [ef6e07485b92], [a543ea5b5ca6]
 zvariant 3.15.2 — MIT — https://github.com/dbus2/zbus/
     texts: [fe2a9817987f]
-zvariant 5.15.0 — MIT — https://github.com/z-galaxy/zbus/
+zvariant 5.15.1 — MIT — https://github.com/z-galaxy/zbus/
     texts: [4e7947a10013]
 zvariant_utils 4.2.0 — MIT — https://github.com/z-galaxy/zbus/
     texts: [fe2a9817987f]

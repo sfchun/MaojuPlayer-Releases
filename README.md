@@ -35,7 +35,7 @@ This repository is the distribution point for official MaojuPlayer releases. Mao
 
 ### System requirements
 
-* **macOS:** macOS 11 (Big Sur) or later, on a Mac with Apple Silicon (M1 or later). Intel Macs are not supported.
+* **macOS:** macOS 14 (Sonoma) or later, on a Mac with Apple Silicon (M1 or later). Intel Macs are not supported.
 * **Windows:** Windows 10 or 11, 64-bit (x64), with Microsoft's Visual C++ Redistributable installed (see below) and a graphics card whose driver supports DirectX 12.
 * **Linux:** a 64-bit, glibc-based distribution (x64; the ARM64 build is experimental and cannot play WavPack files) with an X11 or Wayland desktop, a graphics driver with Vulkan or OpenGL support, and the ALSA library (`libasound2`, present on almost every desktop). File dialogs use your desktop's file-chooser portal (`xdg-desktop-portal`) or, without it, `zenity`. To add SMB shares from inside the app (**File → Add SMB/UNC path...**), install `gio` and the GVFS SMB backend (`gvfs-backends` on Debian/Ubuntu, `gvfs-smb` on Fedora/Arch; often already installed on GNOME-based desktops); shares you mount yourself work with **File → Add Folder...**.
 

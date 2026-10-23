@@ -3,7 +3,7 @@
 All notable changes to MaojuPlayer are listed here, newest first.
 Each version matches a release tag (`vX.Y.Z`) on the [Releases](../../releases) page.
 
-## v3.5.2 — first public release
+## v3.5.3 — first public release
 
 Date: Unreleased
 

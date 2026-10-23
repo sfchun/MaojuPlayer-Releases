@@ -332,7 +332,7 @@ chacha20 0.10.2 — MIT OR Apache-2.0 — https://github.com/RustCrypto/stream-c
     texts: [0ffddef9e48f], [ef7820cdb3b6]
 chardetng 1.0.0 — Apache-2.0 OR MIT — https://github.com/hsivonen/chardetng
     texts: [06030ee34763], [0ffddef9e48f], [69fb5adae13b]
-clipboard-win 5.4.1 — BSL-1.0 — https://github.com/DoumanAsh/clipboard-win
+clipboard-win 5.4.3 — BSL-1.0 — https://github.com/DoumanAsh/clipboard-win
     texts: [cb251be205ee]
 cocoa 0.24.1 — MIT / Apache-2.0 — https://github.com/servo/core-foundation-rs
     texts: [9fba058782d4], [0ffddef9e48f], [f68b2461e05d]
@@ -968,7 +968,7 @@ skrifa 0.44.0 — MIT OR Apache-2.0 — https://github.com/googlefonts/fontation
     texts: [105b5c924cbb], [ba498e49a767]
 slab 0.4.12 — MIT — https://github.com/tokio-rs/slab
     texts: [075c35810494]
-smallvec 1.16.3 — MIT OR Apache-2.0 — https://github.com/servo/rust-smallvec
+smallvec 1.16.4 — MIT OR Apache-2.0 — https://github.com/servo/rust-smallvec
     texts: [0ffddef9e48f], [2736d79caea3]
 smithay-client-toolkit 0.19.2 — MIT — https://github.com/smithay/client-toolkit
     texts: [b33fac9a901a]
@@ -1112,7 +1112,7 @@ utf8-zero 0.8.1 — MIT OR Apache-2.0 — https://github.com/algesten/utf8-zero
     texts: [59d8f0ba87ad], [fe2a9817987f]
 utf8_iter 1.0.4 — Apache-2.0 OR MIT — https://github.com/hsivonen/utf8_iter
     texts: [0636525ad3df], [0ffddef9e48f], [69fb5adae13b]
-uuid 1.28.0 — Apache-2.0 OR MIT — https://github.com/uuid-rs/uuid
+uuid 1.29.0 — Apache-2.0 OR MIT — https://github.com/uuid-rs/uuid
     texts: [0ffddef9e48f], [de1bcb73d8f5]
 v_frame 0.3.9 — BSD-2-Clause — https://github.com/rust-av/v_frame
     texts: [4546796c6f74]
@@ -1156,7 +1156,7 @@ web-time 1.1.0 — MIT OR Apache-2.0 — https://github.com/daxpedda/web-time
     texts: [76bf7c646adc], [85939736cbbc]
 webbrowser 1.2.5 — MIT OR Apache-2.0 — https://github.com/amodm/webbrowser-rs
     texts: [47a0d1be418b], [10440274737d]
-webpki-roots 1.0.10 — CDLA-Permissive-2.0 — https://github.com/rustls/webpki-roots
+webpki-roots 1.0.11 — CDLA-Permissive-2.0 — https://github.com/rustls/webpki-roots
     texts: [44912421a0a0]
 weezl 0.1.12 — MIT OR Apache-2.0 — https://github.com/image-rs/weezl
     texts: [0ffddef9e48f], [2ea8b3dfe371]

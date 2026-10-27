@@ -3,7 +3,7 @@
 All notable changes to MaojuPlayer are listed here, newest first.
 Each version matches a release tag (`vX.Y.Z`) on the [Releases](../../releases) page.
 
-## v3.5.4 — first public release
+## v3.6.0 — first public release
 
 Date: Unreleased
 
@@ -53,6 +53,7 @@ Streaming requires your own subscription to the service. MaojuPlayer has no part
 * **User Priority Queue** and **Play History** panels.
 * Playlist tabs with colors, drag-and-drop of files and folders, grayed rows for unavailable files, and "Clear deleted files".
 * **Properties** (Cmd+I on macOS, Alt+Enter on Windows and Linux): edit tags of one or many tracks, artwork (front, back, artist) and ReplayGain values.
+* **Convert to…** (right-click tracks or albums): lossless conversion to ALAC (.m4a), FLAC, WAV or AIFF. Bit depth and sample rate stay exactly as in the source, every file is read back and checked after writing, and tags and cover art are kept (anything that can't be kept is listed before you start). Files are saved next to the source or in a folder you choose, with file names from presets or your own pattern; existing files are only replaced if you allow it, and a source file is never replaced.
 * **Databases menu:** export and import the metadata and lyrics databases.
 * **Resume playback** where you left off, and a **sleep timer**.
 
@@ -68,7 +69,7 @@ Streaming requires your own subscription to the service. MaojuPlayer has no part
 ### 🎨 Interface
 
 * **Tile-based layout** with more than 20 zone types, **Edit Layout** (F2) with split, merge, rotate and drag-and-drop, Lock Layout, layout presets, and layout export / import.
-* **Visualizers:** waveform (several styles, A-B loop, metadata overlay with five layouts), spectrum (optional A-weighting), spectrogram, VU meter, peak meter, LUFS meter, phase meter, oscilloscope and the Cosmic Visualizer.
+* **Visualizers:** waveform (several styles, A-B loop, track info shown over the waveform, five layouts), spectrum (optional A-weighting), spectrogram, VU meter, peak meter, LUFS meter, phase meter, oscilloscope and the Cosmic Visualizer.
 * **Visual Tones:** one color theme for every visualizer, with presets (Studio, Vinyl Warm, Neon Lab, Paper Light, Pure Mono), plus per-window transparency.
 * **Mini Player** (Ctrl/Cmd+M) and **full-screen album art** (Ctrl/Cmd+Enter) with auto-hiding transport controls.
 * **Keyboard Shortcuts** overlay (F1).
